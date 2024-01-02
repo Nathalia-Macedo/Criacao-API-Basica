@@ -12,4 +12,4 @@ def get_data():
     return jsonify({"data":"01/01/2024"})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0')
